@@ -18,7 +18,7 @@ Where A and B are the area of the face and 'df the rotation of the sat (moving b
 And then we just want to calculate the average value of the function on interval (0;90) 
 We first calculate the integrale and then divide it by delta of 'df(90) 
 
-### f(x) = 
+### f(x) = cos
 
 
 And the result are : 
