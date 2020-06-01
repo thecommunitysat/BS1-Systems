@@ -1,4 +1,4 @@
-Link Budget Report 
+# Link Budget Report 
 
 Considering that the satellite is placed in a 500 km orbit, we can calculate that the distance between the sat and a ground station, will be between 2000 km and 500 km as function of the elevation angle (5°- 90°)
 
@@ -13,13 +13,13 @@ The recommended margins for a very low error rate (10^-8 %) for GMSK are 12dB an
 
 It is therefore reasonable to take a signal-to-noise ratio margin of 15dB. 
 
-On the satellite the availables performances are : 
+### On the satellite the availables performances are : 
 
 Rx sensitivity from -100dB to -127 dB 
 Tx Power up to 27dBm 
 Antenna Gain from -25dB to 0dB 
 
-On the ground : 
+### On the ground : 
 
 Rx sensitivity around -136dB
 Tx Power up to 36dBm 
@@ -37,7 +37,7 @@ Which mean that the power seen by the satellite is between - 91.3 dB and -103.3 
 
 We want a minimal signal-to-noise ratio margin of 15dB ⇔ -103.3 - 15 = - 118.3 dB 
 
-Rx sensitivity on the sat should be better than - 118.3 dB 
+### Rx sensitivity on the sat should be better than - 118.3 dB 
 
 Then Downlink; 
 
@@ -50,7 +50,7 @@ Which mean that the power seen by the ground station is between -100.3 and - 112
 
 We want a minimal signal-to-noise ratio margin of 15dB ⇔ -112.3 - 15 = - 127.3 dB 
 
-Rx sensitivity on the ground station should be better than - 127.3 dB 
+### Rx sensitivity on the ground station should be better than - 127.3 dB 
 
 
 
