@@ -11,26 +11,26 @@ To do that's we need to calculate the average projected area of the sat during i
 
 The formula to calculate the exposed area is this one : 
 
-f(x) = cos('df)*A+sin('df)*B 
+### f(x) = cos(x)*A+sin(x)*B 
 
 Where A and B are the area of the face and 'df the rotation of the sat (moving between 0 and 90'b0) 
 
 And then we just want to calculate the average value of the function on interval (0;90) 
 We first calculate the integrale and then divide it by delta of 'df(90) 
 
-f(x) = (2 integral_0^(\uc0\u960 /2) (B cos(x) + A sin(x)) dx)/\u960  
-     = (2 (A + B))/\uc0\u960 \
-
+### f(x) = 
 
 
 And the result are : 
 
 for A = 50cm2 and B = 50cm2 
-P = (2*(100))/pi = 63.66 cm2 
+P = (2*(100))/pi 
+### = 63.66 cm2 
 
 
 for A = 50cm2 and B = 100cm2 
-P = (2*(150))/pi = 95.4 cm2 
+P = (2*(150))/pi 
+### = 95.4 cm2 
 
 The first result if for the sat rotating with the big face on top (1)
 
@@ -42,10 +42,10 @@ Then we know that the area used by solar panel on face is about 70%, and that so
 OAP = (((Average projected area)*70%)*0.13)*25% 
 
 OAP1 = ((63.66*70%)*0.13)*25% 
-OAP1 =  1.448W 
+### OAP1 =  1.448W 
 
 OAP2 = ((95.4*70%)*0.13)*25% 
-OAP2 = 2.170W 
+### OAP2 = 2.170W 
 
 As we always have sun a big capacity battery is not required 
 
@@ -55,7 +55,7 @@ Surface area = 30.18cm2 = 60% of the face area
 Efficiency = 28 % 
 
 OAPreal1 = ((63.66*60%)*0.13)*28% 
-= 1.390W 
+### = 1.390W 
 
 OAPreal2 = ((95.4*60%)*0.13)*28% 
-= 2.083W 
+### = 2.083W 
