@@ -55,7 +55,7 @@ Surface area = 30.18cm2 = 60% of the face area
 Efficiency = 28 % 
 
 OAPreal1 = ((63.66*60%)*0.13)*28% 
-### = 1.390W 
+### OAPreal 1 = 1.390W 
 
 OAPreal2 = ((95.4*60%)*0.13)*28% 
-### = 2.083W 
+### OAPreal2 = 2.083W 
