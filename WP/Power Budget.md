@@ -1,7 +1,7 @@
 # WP2.4 Power Budget 
 
-![![GitHub Logo](/image/logo.png)
-Format: ![Alt Text](url)]
+!(/image/logo.png)
+
 
 ### Sat Energy Capacity Reports 
 
