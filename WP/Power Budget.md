@@ -14,12 +14,15 @@ The formula to calculate the exposed area is this one :
 
 ### f(x) = cos(x)*A+sin(x)*B 
 
-Where A and B are the area of the face and 'df the rotation of the sat (moving between 0 and 90'b0) 
+Where A and B are the area of the face and 'df the rotation of the sat (moving between 0 and 90°) 
 
 And then we just want to calculate the average value of the function on interval (0;90) 
-We first calculate the integrale and then divide it by delta of 'df(90) 
+We first calculate the integrale and then divide it by delta of x (90) 
 
-### f(x) = cos
+### f(x) = ∫(A*sin(x)+B*cos(x),x,0,π/2)/(π/2-0)
+
+### = (2 (A + B))/π
+
 
 
 And the result are : 
