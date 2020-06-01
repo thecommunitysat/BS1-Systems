@@ -1,6 +1,6 @@
 # WP2.4 Power Budget 
 
-!(/image/logo.png)
+![](/image/logo.png)
 
 
 ### Sat Energy Capacity Reports 
