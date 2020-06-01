@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh15520\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # WP2.4 Power Budget \
+\
+### Sat Energy Capacity Reports \
+\
+This is the OPA Report, OAP is the average orbit power. We assume that the sat is in SSO orbit, which mean that the sat is always in sun zone. We assume two that the satellite is only rotation on one axis relative to the sun. \
+\
+\
+On the sat we have solar panel, on each face, to calculate the OAP, we want to know the average power that the solar panel will provide \
+\
+To do that\'92s we need to calculate the average projected area of the sat during its rotation on its axis. \
+\
+The formula to calculate the exposed area is this one : \
+\
+f(x) = cos(\'df)*A+sin(\'df)*B \
+\
+Where A and B are the area of the face and \'df the rotation of the sat (moving between 0 and 90\'b0) \
+\
+And then we just want to calculate the average value of the function on interval (0;90) \
+We first calculate the integrale and then divide it by delta of \'df(90) \
+\
+f(x) = (2 integral_0^(\uc0\u960 /2) (B cos(x) + A sin(x)) dx)/\u960  \
+     = (2 (A + B))/\uc0\u960 \
+\
+\
+\
+And the result are : \
+\
+for A = 50cm2 and B = 50cm2 \
+P = (2*(100))/pi = 63.66 cm2 \
+\
+\
+for A = 50cm2 and B = 100cm2 \
+P = (2*(150))/pi = 95.4 cm2 \
+\
+The first result if for the sat rotating with the big face on top (1)\
+\
+The second result if for the sat rotating with a small face on top (2) \
+\
+\
+Then we know that the area used by solar panel on face is about 70%, and that solar efficiency is about 25%. We finally know that the solar power received by the sat will be about 1300W.m2 = 0.13W.cm2 \
+\
+OAP = (((Average projected area)*70%)*0.13)*25% \
+\
+OAP1 = ((63.66*70%)*0.13)*25% \
+OAP1 =  1.448W \
+\
+OAP2 = ((95.4*70%)*0.13)*25% \
+OAP2 = 2.170W \
+\
+As we always have sun a big capacity battery is not required \
+\
+Now it\'92s better to do the calculation with actual solar cell. We may use this one http://www.azurspace.com/images/0003429-01-01_DB_3G30C-Advanced.pdf\
+\
+Surface area = 30.18cm2 = 60% of the face area \
+Efficiency = 28 % \
+\
+OAPreal1 = ((63.66*60%)*0.13)*28% \
+= 1.390W \
+\
+OAPreal2 = ((95.4*60%)*0.13)*28% \
+= 2.083W }
