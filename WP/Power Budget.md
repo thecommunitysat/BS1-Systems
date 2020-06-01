@@ -1,12 +1,10 @@
 # WP2.4 Power Budget 
 
-![](/WP/image/logo.png)
-
-
 ### Sat Energy Capacity Reports 
 
 This is the OPA Report, OAP is the average orbit power. We assume that the sat is in SSO orbit, which mean that the sat is always in sun zone. We assume two that the satellite is only rotation on one axis relative to the sun. 
 
+![](/WP/image/sketch1.png)
 
 On the sat we have solar panel, on each face, to calculate the OAP, we want to know the average power that the solar panel will provide 
 
@@ -38,6 +36,8 @@ P = (2*(150))/pi
 The first result if for the sat rotating with the big face on top (1)
 
 The second result if for the sat rotating with a small face on top (2) 
+
+![](/WP/image/sketch2.png)
 
 
 Then we know that the area used by solar panel on face is about 70%, and that solar efficiency is about 25%. We finally know that the solar power received by the sat will be about 1300W.m2 = 0.13W.cm2 
