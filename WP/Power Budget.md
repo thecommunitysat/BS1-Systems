@@ -4,7 +4,7 @@
 
 This is the OPA Report, OAP is the average orbit power. We assume that the sat is in SSO orbit, which mean that the sat is always in sun zone. We assume two that the satellite is only rotation on one axis relative to the sun. 
 
-![](/WP/image/sketch1.png)
+![](/WP/image/sketch1.png) 
 
 On the sat we have solar panel, on each face, to calculate the OAP, we want to know the average power that the solar panel will provide 
 
