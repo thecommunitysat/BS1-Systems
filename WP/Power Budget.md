@@ -55,7 +55,7 @@ OAP2 = ((95.4*70%)*0.13)*25%
 
 As we always have sun a big capacity battery is not required 
 
-Now it\'92s better to do the calculation with actual solar cell. We may use this one http://www.azurspace.com/images/0003429-01-01_DB_3G30C-Advanced.pdf\
+Now it\'92s better to do the calculation with actual solar cell. We may use this one http://www.azurspace.com/images/0003429-01-01_DB_3G30C-Advanced.pdf
 
 Surface area = 30.18cm2 = 60% of the face area 
 Efficiency = 28 % 
