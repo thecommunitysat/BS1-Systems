@@ -23,8 +23,6 @@ We first calculate the integrale and then divide it by delta of x (90)
 
 ### = (2 (A + B))/π
 
-
-
 And the result are : 
 
 for A = 50cm2 and B = 50cm2 
@@ -65,3 +63,19 @@ OAPreal1 = ((63.66*60%)*0.13)*28%
 
 OAPreal2 = ((95.4*60%)*0.13)*28% 
 ### OAPreal2 = 2.083W 
+
+The next part was the orbit / eclipse simulation 
+A 97° SSO Orbit have been simulated 
+
+During the year the % of available power is evoluting between 75% and 100% 
+the worst time is summer and the best time is winter. 
+
+![](/WP/image/chart-3.png) 
+
+Wich mean the the worst case of the worst case is 75% of 1.390 = 1.0425W
+The best case of the worst case is 1.390W 
+
+The worst case of the best case is 75% of 2.083W = 1.562W 
+The best case of the best case is 2.083W
+
+
