@@ -2,7 +2,7 @@
 
 ### TTO sat Electronic System Definition 
 
-![](/WP/image/system1.png) 
+![](/WP/image/TetherSat.png) 
 
 ### LEMON sat Electronic System Definition 
 
