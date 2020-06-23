@@ -6,6 +6,9 @@ This is the OPA Report, OAP is the average orbit power. We assume that the sat i
 
 ![](/WP/image/sketch2.png) 
 
+
+[![Alt text](https://img.youtube.com/vi/RoKZx84o4Kk/0.jpg)](https://www.youtube.com/watch?v=RoKZx84o4Kk)
+
 On the sat we have solar panel, on each face, to calculate the OAP, we want to know the average power that the solar panel will provide 
 
 To do that's we need to calculate the average projected area of the sat during its rotation on its axis. 
