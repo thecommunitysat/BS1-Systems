@@ -38,7 +38,7 @@ The first result if for the sat rotating with the big face on top (1)
 
 The second result if for the sat rotating with a small face on top (2) 
 
-![](/WP/image/sketch1.png)
+![](/WP/image/cube.png)
 
 
 Then we know that the area used by solar panel on face is about 70%, and that solar efficiency is about 25%. We finally know that the solar power received by the sat will be about 1300W.m2 = 0.13W.cm2 
